@@ -1,1 +1,1 @@
-# adblock-and-password-manager
+#  password-manager code only
