@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "webx",
+  "version": "1.0",
+  "description": "Web security extension with adblocking, phishing protection, HTTPS upgrade, password manager, and enhanced protection.",
+  "icons": {
+    "48": "webx.png",
+    "128": "webx.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "activeTab",
+    "*://*/*",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup":"index.html",
+    "default_icon": {
+      "48": "webx.png",
+      "128": "webx.png"
+    }
+  }
+}
+

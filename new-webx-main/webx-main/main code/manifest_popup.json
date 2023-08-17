@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Simple Password Manager",
+    "version": "1.0",
+    "description": "Basic password manager extension",
+    "permissions": ["storage"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
